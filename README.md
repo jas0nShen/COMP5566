@@ -31,12 +31,12 @@ pip install -r requirements.txt
 ### 请将env.example复制为 .env 并填入真实的密钥
 API_KEY=your_actual_api_key_here
 
-# 想要图形化界面显示请直接运行下面的代码
+# 想要图形化界面显示!!!请直接运行下面的代码
 ```bash
 python3 pipeline_gui.py
 ```
 
-请按照以下顺序在终端运行脚本：
+想在终端运行!!! 请按照以下顺序在终端运行脚本：
 
 ### 第一步：获取合约地址
 运行以下脚本从 Etherscan 获取最新的活跃合约地址：
