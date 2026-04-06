@@ -1,77 +1,181 @@
 [
     {
         "cluster_id": 1,
-        "size": 12,
+        "size": 28,
         "members": [
-            "ERC1967Proxy_0x604d.sol",
-            "TransparentUpgradeableProxy_0x18cc.sol",
-            "ERC1967Proxy_0x5ccb.sol",
-            "ERC1967Proxy_0xb773.sol",
-            "TransparentUpgradeableProxy_0xec53.sol",
             "OptimizedTransparentUpgradeableProxy_0x1732.sol",
-            "TransparentUpgradeableProxy_0x7598.sol",
             "ERC1967Proxy_0xee7a.sol",
-            "ERC1967Proxy_0xebf6.sol",
+            "BeaconProxy_0x1f5f.sol",
             "TransparentUpgradeableProxy_0x85ec.sol",
+            "TransparentUpgradeableProxy_0xbca3.sol",
+            "TransparentUpgradeableProxy_0x02b8.sol",
+            "ERC1967Proxy_0x5ccb.sol",
+            "TransparentUpgradeableProxy_0xec53.sol",
+            "TransparentUpgradeableProxy_0x2e51.sol",
+            "ERC1967Proxy_0xadf7.sol",
+            "ERC1967Proxy_0xb007.sol",
+            "TransparentUpgradeableProxy_0x238a.sol",
+            "TransparentUpgradeableProxy_0x0366.sol",
+            "TransparentUpgradeableProxy_0x7598.sol",
+            "TransparentUpgradeableProxy_0x8be3.sol",
+            "TransparentUpgradeableProxy_0x18cc.sol",
+            "ERC1967Proxy_0x3ef3.sol",
+            "TransparentUpgradeableProxy_0xa129.sol",
+            "TransparentUpgradeableProxy_0x6c96.sol",
+            "TransparentUpgradeableProxy_0x3d90.sol",
+            "TransparentUpgradeableProxy_0x1a88.sol",
+            "ERC1967Proxy_0x604d.sol",
+            "ERC1967Proxy_0xebf6.sol",
+            "TransparentUpgradeableProxy_0x3328.sol",
             "BeaconProxy_0x74a0.sol",
-            "TransparentUpgradeableProxy_0x2e51.sol"
+            "TransparentUpgradeableProxy_0x1c47.sol",
+            "ERC1967Proxy_0xb773.sol",
+            "TransparentUpgradeableProxy_0x1a9d.sol"
         ]
     },
     {
         "cluster_id": 2,
-        "size": 4,
+        "size": 9,
         "members": [
             "TransparentUpgradeableProxy_0xf668.sol",
+            "ERC1967Proxy_0x46ea.sol",
             "ERC1967Proxy_0x328f.sol",
             "TransparentUpgradeableProxy_0xb3fa.sol",
-            "ERC1967Proxy_0xfaf1.sol"
+            "ERC1967Proxy_0xfaf1.sol",
+            "ERC1967Proxy_0x511c.sol",
+            "TransparentUpgradeableProxy_0x3302.sol",
+            "TransparentUpgradeableProxy_0x1d68.sol",
+            "TransparentUpgradeableProxy_0x33b4.sol"
         ]
     },
     {
         "cluster_id": 3,
-        "size": 3,
+        "size": 7,
         "members": [
-            "SafeProxy_0x9a15.sol",
+            "SafeProxy_0x8a25.sol",
             "SafeProxy_0x9eb8.sol",
-            "SafeProxy_0x5881.sol"
+            "SafeProxy_0x5881.sol",
+            "SafeProxy_0x3c29.sol",
+            "SafeProxy_0xb068.sol",
+            "SafeProxy_0xb317.sol",
+            "SafeProxy_0x9a15.sol"
         ]
     },
     {
         "cluster_id": 4,
-        "size": 3,
+        "size": 7,
         "members": [
-            "TransparentUpgradeableProxy_0x238a.sol",
-            "TransparentUpgradeableProxy_0x3328.sol",
-            "TransparentUpgradeableProxy_0xbca3.sol"
+            "ERC1967Proxy_0xf4e1.sol",
+            "ERC1967Proxy_0x9ccc.sol",
+            "ERC1967Proxy_0x2222.sol",
+            "ERC1967Proxy_0x7714.sol",
+            "UUPSProxy_0x031d.sol",
+            "ERC1967Proxy_0x58d9.sol",
+            "VaultProxy_0x0e60.sol"
         ]
     },
     {
         "cluster_id": 5,
-        "size": 3,
+        "size": 5,
         "members": [
-            "AdminUpgradeabilityProxy_0x4580.sol",
-            "AdminUpgradeabilityProxy_0x6c3e.sol",
-            "FiatTokenProxy_0xa0b8.sol"
+            "EthcoinProxy_0xe957.sol",
+            "ERC1967Proxy_0x8e02.sol",
+            "ERC1967Proxy_0x4fef.sol",
+            "PProxy_0x4c17.sol",
+            "ERC1967Proxy_0xc2f2.sol"
         ]
     },
     {
         "cluster_id": 6,
-        "size": 2,
+        "size": 4,
         "members": [
-            "ERC1967Proxy_0x5c7b.sol",
-            "ERC1967Proxy_0x6e2a.sol"
+            "FiatTokenProxy_0xa0b8.sol",
+            "AdminUpgradeabilityProxy_0x394d.sol",
+            "AdminUpgradeabilityProxy_0x4580.sol",
+            "AdminUpgradeabilityProxy_0x6c3e.sol"
         ]
     },
     {
         "cluster_id": 7,
-        "size": 2,
+        "size": 4,
         "members": [
-            "GnosisSafeProxy_0xa684.sol",
-            "GnosisSafeProxy_0xf633.sol"
+            "TransparentUpgradeableProxy_0x43de.sol",
+            "ERC1967Proxy_0x6e2a.sol",
+            "TransparentUpgradeableProxy_0x6874.sol",
+            "ERC1967Proxy_0x5c7b.sol"
         ]
     },
     {
         "cluster_id": 8,
+        "size": 4,
+        "members": [
+            "TetherUSD_0x3f69.sol",
+            "OrderToken_0xabd4.sol",
+            "Open_0xa227.sol",
+            "CTAToken_0x9068.sol"
+        ]
+    },
+    {
+        "cluster_id": 9,
+        "size": 4,
+        "members": [
+            "ZamaERC20_0xa12c.sol",
+            "BTR_0x6c76.sol",
+            "Succinct_0x6bef.sol",
+            "FF_0xfa1c.sol"
+        ]
+    },
+    {
+        "cluster_id": 10,
+        "size": 3,
+        "members": [
+            "ERC721SeaDropCloneable_0x672c.sol",
+            "ERC721SeaDropCloneable_0x14d6.sol",
+            "ERC721SeaDrop_0x31bc.sol"
+        ]
+    },
+    {
+        "cluster_id": 11,
+        "size": 2,
+        "members": [
+            "MetaMorphoV1_1_0x9b5e.sol",
+            "MetaMorphoV1_1_0x31a5.sol"
+        ]
+    },
+    {
+        "cluster_id": 12,
+        "size": 2,
+        "members": [
+            "Proxy_0x0341.sol",
+            "Proxy_0xb5ec.sol"
+        ]
+    },
+    {
+        "cluster_id": 13,
+        "size": 2,
+        "members": [
+            "GnosisSafeProxy_0xf633.sol",
+            "GnosisSafeProxy_0xa684.sol"
+        ]
+    },
+    {
+        "cluster_id": 14,
+        "size": 2,
+        "members": [
+            "AuthorizedForwarder_0x0c46.sol",
+            "AuthorizedForwarder_0xf383.sol"
+        ]
+    },
+    {
+        "cluster_id": 15,
+        "size": 2,
+        "members": [
+            "MerkleDistributorWithDeadline_0x7b2a.sol",
+            "MerkleDistributorWithDeadline_0xd513.sol"
+        ]
+    },
+    {
+        "cluster_id": 16,
         "size": 2,
         "members": [
             "DVN_0xa59b.sol",
@@ -79,39 +183,55 @@
         ]
     },
     {
-        "cluster_id": 9,
+        "cluster_id": 17,
         "size": 2,
         "members": [
-            "EthcoinProxy_0xe957.sol",
-            "PProxy_0x4c17.sol"
+            "ForwarderV4_0xe65b.sol",
+            "ForwarderV4_0x5389.sol"
         ]
     },
     {
-        "cluster_id": 10,
+        "cluster_id": 18,
         "size": 2,
         "members": [
-            "UUPSProxy_0x031d.sol",
-            "ERC1967Proxy_0xf4e1.sol"
+            "StakingReward_0xb01f.sol",
+            "Staking_0x8a4b.sol"
         ]
     },
     {
-        "cluster_id": 11,
+        "cluster_id": 19,
         "size": 2,
         "members": [
-            "ENA_0x57e1.sol",
-            "SynFuturesToken_0x6e15.sol"
+            "MainnetSettlerIntent_0xf9ae.sol",
+            "MainnetSettler_0xf48a.sol"
         ]
     },
     {
-        "cluster_id": 12,
+        "cluster_id": 20,
         "size": 2,
         "members": [
-            "TetherUSD_0x3f69.sol",
-            "Open_0xa227.sol"
+            "SynFuturesToken_0x6e15.sol",
+            "ENA_0x57e1.sol"
         ]
     },
     {
-        "cluster_id": 13,
+        "cluster_id": 21,
+        "size": 2,
+        "members": [
+            "LayerZeroToken_0x6985.sol",
+            "ZEROBASE_0xfab9.sol"
+        ]
+    },
+    {
+        "cluster_id": 22,
+        "size": 2,
+        "members": [
+            "RelayApprovalProxyV3_0xccc8.sol",
+            "ApprovalProxy_0xbbbf.sol"
+        ]
+    },
+    {
+        "cluster_id": 23,
         "size": 2,
         "members": [
             "Turbo_0xa359.sol",

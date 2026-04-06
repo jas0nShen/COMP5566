@@ -64,8 +64,19 @@ def super_fast_detect():
     if results:
         # 排序并输出
         df = pd.DataFrame(results).sort_values(by='Similarity', ascending=False)
-        print("\n🏆 --- 发现高度相似的合约对 (Top 20) ---")
-        print(df.head(20).to_string(index=False))
+        print("\n" + "="*80)
+        print(" 🏆 Top 20 Highly Similar Contract Pairs")
+        print("-" * 80)
+        print(f"{'Sim. %':<8} | {'Contract A':<32} | {'Contract B':<32}")
+        print("-" * 80)
+        for _, row in df.head(20).iterrows():
+            sim = f"{row['Similarity']}%"
+            ca, cb = str(row['Contract A']), str(row['Contract B'])
+            # 缩短过长的文件名以对齐
+            if len(ca) > 32: ca = ca[:29] + "..."
+            if len(cb) > 32: cb = cb[:29] + "..."
+            print(f"{sim:<8} | {ca:<32} | {cb:<32}")
+        print("=" * 80)
         df.to_csv('fast_clone_report.csv', index=False)
         print(f"\n✅ 搞定！共找到 {len(results)} 对相似合约。报告已保存至 fast_clone_report.csv")
     else:
